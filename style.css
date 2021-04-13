@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+
+.card {
+  margin: 16px auto;
+  background-color: #fff;
+  max-width: 520px;
+  box-shadow: 0 0 8px #0006;
+  border-radius: 8px;
+  padding: 32px;
+  font: 12px/1.4em Arial;
+  color: #666;
+}
+
+.card__title {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.card__title:before{
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: slateblue;
+  margin-right: 8px;
+}
+
+.card__subtitle {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.card__input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid slateblue;
+  color: #444;
+  font-size: 15px;
+  width: 100%;
+}
+
+.card__balls {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 16px 0;
+}
+
+.card__ball-item {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  cursor:pointer;
+}
+.card__result{
+  display: flex;
+}
+.card__Label{
+  padding:10px;
+  border-radius:10px;
+  color: #fff;
+  margin-right:8px;
+}
+.card__Label:last-child{
+  margin-right:0;
+}
+
+.card__ball-item-1 {
+  background-color: springgreen;
+}
+
+.card__ball-item-2 {
+  background-color: steelblue;
+}
+
+.card__ball-item-3 {
+  background-color: black;
+}
+
+.card__ball-item-4 {
+  background-color: purple;
+}
+
+.card__ball-item-5 {
+  background-color: yellow;
+}
+
+.card__ball-item-6 {
+  background-color: aqua;
+}
+
+.card__ball-item-7 {
+  background-color: tomato;
+}
